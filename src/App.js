@@ -1,23 +1,41 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Eventos from './components/Eventos';
+import Artistas from './components/Artistas';
+import Biblioteca from './components/Biblioteca';
+import Noticias from './components/Noticias';
+import Contacto from './components/Contacto';
+import Footer from './components/Footer';
+import Carrusel from './components/Carrusel';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Header */}
+      <Header />
+
+      {/* Eventos y Conciertos Section */}
+
+      <Eventos />
+
+      {/* Artistas Section */}
+      <Artistas />
+
+      <Carrusel />
+
+      {/* Música Streaming Section */}
+      <Biblioteca />
+
+      {/* Noticias Section */}
+      <Noticias />
+
+      {/* Contacto Section */}
+      <Contacto />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 }
