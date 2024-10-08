@@ -1,0 +1,19 @@
+.Biblioteca {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .Biblioteca h3 {
+    color: #333;
+  }
+  
+  .Biblioteca a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .Biblioteca a:hover {
+    text-decoration: underline;
+  }
+  

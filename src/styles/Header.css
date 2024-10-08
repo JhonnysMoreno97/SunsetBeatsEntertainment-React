@@ -1,0 +1,95 @@
+header {
+    background: #212121;
+    /*Color de fondo del encabezado*/
+    color: #fff;
+    /*Color del texto de encabezado*/
+    padding: 60px 0;
+    /*Espacios entre lineas de arriba y abajo*/
+    text-align: center;
+    /*Se centra el texto*/
+
+}
+
+header h1 {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 3.2em;
+    /*Tamaño de la fuente del encabezado */
+}
+
+/*Estilos de navegación*/
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    /*Los elementos del encabezado se pasan a una sola línea */
+    margin: 0 18px;
+    /*Espacio entre los elementos*/
+}
+
+nav a {
+    color: #fff;
+    /* Color del texto*/
+    font-weight: bold;
+    /* Texto en negrita para los enlaces */
+}
+
+nav a:hover {
+    color: #aaaaaa;
+    /*Color al pasar el más sobre el texto*/
+}
+
+
+/* Estilos de las imágenes */
+Img {
+    max-width: 100%;
+    /* Hace que las imágenes sean responsivas */
+    height: auto;
+    /* Mantiene la relación de aspecto */
+    margin: 20px 0;
+    /* Espaciado vertical alrededor de las imágenes */
+    border-radius: 8px;
+    /* Bordes redondeados para las imágenes */
+
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.img_inicio {
+    position: relative;
+    float: right;
+    right: 60px;
+    top: -130px;
+    border-radius: 100%;
+
+}
+
+form button:hover {
+    background-color: #0056b3;
+    /* Color más oscuro al pasar el mouse sobre el botón */
+}
+
+/* Botón para alternar modo oscuro/claro */
+#toggle-dark-mode {
+    cursor: pointer;
+    font-size: 2.5rem;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    color: #fff;
+    transition: color 0.3s ease;
+    margin-right: 1010px;
+    margin-top: 10px;
+    
+}
+
+#toggle-dark-mode:hover {
+    color: #ffd700;
+    transform: scale(1.1);
+    /* Dorado al pasar el mouse */
+    margin-right: 1010px;
+    margin-top: 10px;
+}

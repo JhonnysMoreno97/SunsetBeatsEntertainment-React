@@ -1,38 +1,104 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: Arial, sans-serif;
+  /*Se cambia la fuente a arial*/
+  color: #000000;
+  /*Color del texto general*/
+  line-height: 1.6;
+  /*Espacio entre lineas*/
+  background-color: #333;
+  /*Color de fondo*/
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+section {
+  padding: 20px;
+  margin: 30px;
+  background: #fff;
+  /*Fondo para las secciones*/
+  border-radius: 8px;
+  /* Estilo del borde*/
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  /*Sombra*/
+}
+
+section h2 {
+  color: #000000;
+  /*Color del titulo de sección*/
+  margin-bottom: 20px;
+}
+
+/* Diseño responsive para móviles */
+@media (max-width: 768px) {
+  .seccion-imagenes {
+      flex-direction: column;
+  }
+
+  .seccion-imagenes img {
+      max-width: 90%;
+      margin: 10px auto;
+  }
+
+  .seccion-imagenes .texto {
+      text-align: center;
+      padding: 0;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#toggle-dark-mode {
+  top: 10px;
+  right: 10px;
+}
+form button:hover {
+  background-color: #0056b3; /* Color más oscuro al pasar el mouse sobre el botón */
 }
 
-.App-link {
-  color: #61dafb;
+/* Modo oscuro */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body.dark-mode header {
+  background: #1f1f1f;
 }
+
+body.dark-mode nav a {
+  color: #e0e0e0;
+}
+
+body.dark-mode nav a:hover {
+  color: #ffd700;
+}
+
+body.dark-mode section {
+  background: #1e1e1e;
+  color: #e0e0e0;
+}
+
+body.dark-mode section h2 {
+  color: #ffffff;
+}
+
+body.dark-mode article h3 {
+  color: #1e90ff;
+}
+
+body.dark-mode section a {
+  color: #1e90ff;
+}
+
+body.dark-mode footer {
+  background: #1f1f1f;
+  color: #e0e0e0;
+}
+
+/* Estilos de botones */
+button {
+  cursor: pointer;
+}
+

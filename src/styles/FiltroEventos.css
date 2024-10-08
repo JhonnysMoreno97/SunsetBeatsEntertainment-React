@@ -1,0 +1,42 @@
+/* Estilos para el filtro de eventos */
+.filtro-eventos {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .filtro-eventos label {
+    margin-right: 10px;
+    font-weight: bold;
+  }
+  
+  .filtro-eventos select {
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  /* Estilos para el filtro */
+    #filtro-eventos {
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    
+  }
+
+  image {
+    max-width: 100%;
+    /* Hace que las imágenes sean responsivas */
+    height: auto;
+    /* Mantiene la relación de aspecto */
+    margin: 20px 0;
+    /* Espaciado vertical alrededor de las imágenes */
+    border-radius: 8px;
+    /* Bordes redondeados para las imágenes */
+  }
+  
+  image:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    height: auto;
+  }

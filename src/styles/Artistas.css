@@ -1,0 +1,10 @@
+ .Artistas {
+     background: #212121;
+     /*Color de fondo del encabezado*/
+     color: #fff;
+
+ }
+
+ .Artistas h2 {
+     margin-right: 80px;
+ }

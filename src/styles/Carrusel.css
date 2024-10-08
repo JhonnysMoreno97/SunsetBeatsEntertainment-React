@@ -1,0 +1,48 @@
+.Carrusel{
+    background: #fff;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    
+}
+
+.carousel {    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 8px;
+    
+    
+}
+
+.carousel .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+
+.carousel .prev {
+    left: 10px;
+    
+}
+
+.carousel .next {
+    right: 10px;
+}
+
+
+.carousel h3 {
+    left: 40px;
+}
+
+.carousel .prev, .carousel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    
+}
